@@ -6,8 +6,8 @@ import Right from './containers/Right'
 class App extends Component {
   render() {
     return (
-      <div>
-        {/* <Left /> */}
+      <div className="App">
+        <Left />
         <Right />
       </div>
     );
