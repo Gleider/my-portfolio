@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import photo from '../assets/img/photo.png'
+import Image from './Image'
 import './Right.css'
+import Content from './Content'
 class Right extends Component {
   render() {
     return (
       <div className='right-info'>
-        <img src={photo} alt="my photo" className="my-photo"/>
-        <h2 className="my-name">Gleider Mackedanz de Campos</h2>
+        <Image />
+        <Content />
       </div>
     );
   }
